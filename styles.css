@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Playwrite DK Uloopet;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  padding: 0 3.5vw;
+}
+
+a {
+  color: black;
+  font-size: 1.3vw;
+}
+
+.navbar {
+  height: 5vh;
+}
+
+.main-stage {
+  display: flex;
+  height: auto;
+  min-height: 100%;
+}
+
+.left {
+  width: 20%;
+  height: auto;
+}
+
+.middle {
+  width: 60%;
+  height: auto;
+  box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.5),
+    5px 0 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.right {
+  width: 20%;
+  height: auto;
+}
