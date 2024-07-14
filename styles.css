@@ -7,60 +7,109 @@
   font-family: Playwrite DK Uloopet;
 }
 
+h1,
+h2,
+h3,
+h4,
+pre {
+  margin: 0;
+  padding: 0;
+  font-family: Playwrite DK Uloopet;
+}
+
 html,
 body {
-  height: 100%;
-  width: 100%;
-  background-color: bisque;
+  height: 100vh;
+  width: 100vw;
 }
 
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-
-li {
-  padding: 0 3.5vw;
-}
-
-a {
-  color: black;
-  font-size: 1.3vw;
-}
-
+.navigation,
 .navbar {
-  top: 0;
-  height: 5vh;
+  width: 100vw;
+  height: 7vh;
 }
 
-.main-stage {
+.main {
   display: flex;
-  height: auto;
-  min-height: 100%;
+  flex-direction: column;
+  width: 100vw;
+  height: 93vh;
+  background-color: rgb(33, 37, 41);
 }
 
-.left {
-  width: 20%;
-  height: auto;
+.top {
+  width: auto;
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-top {
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-middle {
+  width: 100vw;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-bottom {
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name,
+.small-desc,
+p,
+h2,
+h1,
+h3,
+pre {
+  color: #fff;
+}
+
+.icon-gh {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-linked {
+  width: 42px;
+  height: 42px;
+}
+
+.socials {
+  margin: 0 5px;
 }
 
 .middle {
-  width: 60%;
-  height: auto;
-  box-shadow: -5px 0 5px -5px rgba(0, 0, 0, 0.5),
-    5px 0 5px -5px rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.right {
-  width: 20%;
-  height: auto;
+.home-desc {
+  margin-top: 7vh;
+}
+
+.bottom {
+  width: auto;
+  height: 35vh;
+  text-align: center;
+}
+
+.photo {
+  height: 25vh;
+  border-radius: 50%;
 }
